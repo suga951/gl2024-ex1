@@ -1,0 +1,54 @@
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold); 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Beaufort for LOL Bold";
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")format("svg");
+}
+
+body {
+    background-color: #fafafa;
+}
+
+
+.champion-container{
+    margin: 0 auto;
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    padding:10svh;
+}
+        
+ 
+
+.champion-card{
+    flex: 1 0 18%;
+    text-align: center;
+    background-color: rgb(6,28,37);
+}
+
+.champion-image{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
+.champion-name-container{
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: #070720;
+}
+.champion-name{
+    font-size: 2rem;
+    color:#fafafa;
+    font-family: "Beaufort for LOL Bold", serif; 
+    font-weight: 800;
+}
