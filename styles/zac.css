@@ -1,0 +1,47 @@
+body{
+    background-color: #070720;
+    font-size: 16px;
+}
+
+.champ-name{
+    margin: 0 auto;
+    color: #fafafa;
+}
+.champ-img{
+    position: 20%;
+    max-width: 100%;
+    z-index: -1;
+    position: absolute;
+    mask-image: linear-gradient(rgb(0,0,0)65%,rgba(0,0,0,0)98%);
+
+
+}
+*{
+    color:#fafafa;
+    font-family: "Beaufort for LOL Bold", serif;
+}
+.info{
+    position:absolute;
+    margin-top: 15svh;
+    
+}
+.container-all{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    column-gap: 1rem;
+    justify-content: space-between;
+}
+.role-and-difficult-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-divisor{
+    width: 290px;
+    height: 1px;
+    margin: 0 50px;
+    background-color: #fafafa;
+    
+}
+.champ-title{
+    text-align: center;
+}
