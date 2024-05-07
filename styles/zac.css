@@ -61,3 +61,31 @@ body{
 .role-and-difficult-container{
     padding: 1svh;
 }
+.rol-img{
+    height:3svh;
+    padding-left:0.5svh ;
+}
+.difficulty-img-contain{
+    padding-left: 1svh;
+    padding-top: 1svh;
+    padding-bottom: 0.5svh;
+}
+.difficulty-img{
+        display: inline-block;
+        width: 1.8svh;
+        height: 1.3svh;
+        padding-right: 4%;
+        padding-left: 10%;
+        background-color: rgb(8, 215, 247);
+        transform: skewX(-40deg);
+}
+.lin
+.champ-links{
+    text-decoration: none;
+    font-size: 1.5svh;
+
+}
+.builds-links{
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+}
