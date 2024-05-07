@@ -1,3 +1,11 @@
+*{
+    color:#fafafa;
+    font-family: "Beaufort for LOL Bold", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #070720;
     font-size: 16px;
@@ -16,10 +24,7 @@ body{
 
 
 }
-*{
-    color:#fafafa;
-    font-family: "Beaufort for LOL Bold", serif;
-}
+
 .info{
     position:absolute;
     margin-top: 15svh;
@@ -27,7 +32,7 @@ body{
 }
 .container-all{
     display: grid;
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3);
     column-gap: 1rem;
     justify-content: space-between;
 }
@@ -38,10 +43,21 @@ body{
 .div-divisor{
     width: 290px;
     height: 1px;
-    margin: 0 50px;
+    margin: 0 auto;
     background-color: #fafafa;
-    
 }
 .champ-title{
     text-align: center;
+}
+.builds-links{
+    border-top: 1px solid #fafafa;
+}
+.camp-descripcion{
+    margin: 1em;
+}
+.lore-container{
+    padding: 1svh;
+}
+.role-and-difficult-container{
+    padding: 1svh;
 }
