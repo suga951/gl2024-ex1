@@ -28,7 +28,6 @@ body{
 .info{
     position:absolute;
     margin-top: 15svh;
-    
 }
 .container-all{
     display: grid;
@@ -51,6 +50,10 @@ body{
 }
 .builds-links{
     border-top: 1px solid #fafafa;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin: 1.2svh;
+    padding: 0.2svh;
 }
 .camp-descripcion{
     margin: 1em;
@@ -83,9 +86,6 @@ body{
 .champ-links{
     text-decoration: none;
     font-size: 1.5svh;
+    margin: 1.2svh;
 
-}
-.builds-links{
-   display: grid;
-   grid-template-columns: repeat(4,auto);
 }
