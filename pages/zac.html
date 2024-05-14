@@ -24,13 +24,9 @@
           <div class="container-all">
             <div class="role-and-difficult-container">
               <div class="champ-role">
-                <samp>
-                <img
-                  class="rol-img"
-                  src="/assets/img/role.webp"
-                  alt="role"
-                />
-              </samp>
+                <span>
+                  <img class="rol-img" src="/assets/img/role.webp" alt="role" />
+                </span>
                 <p class="role">ROLE</p>
                 <p class="type-role">TANK</p>
               </div>
@@ -39,7 +35,7 @@
                   <span class="difficulty-img"></span>
                   <span class="difficulty-img"></span>
                   <span class="difficulty-img"></span>
-                  </div>
+                </div>
                 <p class="difficulty">DIFFICULTY</p>
                 <p class="level-difficulty">HIGH</p>
               </div>
@@ -74,8 +70,126 @@
       </span>
     </section>
     <section class="abilities-container">
-      <h1>ABILITIES</h1>
-
+      <div class="container-habilitys-buttons">
+      <div class="gif-container">
+      <img
+        src="/assets/gif/Zac_Pasive.gif"
+        alt="hability Passive video"
+        class="hability_video"
+        id="Passive_video"
+      />
+      <img
+        src="/assets/gif/Zac_ability_Q.gif"
+        alt="hability Q video"
+        class="hability_video"
+        id="Q_video"
+      />
+      <img
+        src="/assets/gif/Zac_ability_W.gif"
+        alt="hability W video"
+        class="hability_video"
+        id="W_video"
+      />
+      <img
+        src="/assets/gif/Zac_ability_E.gif"
+        alt="hability E video"
+        class="hability_video"
+        id="E_video"
+      />
+      <img
+        src="/assets/gif/Zac_ability_R.gif"
+        alt="hability R video"
+        class="hability_video"
+        id="R_video"
+      />
+    </div>
+    <div class="button-text-container">
+    <div class="button_container">
+        <button onclick="passive_hide()" class="hability_button">
+          <img
+            src="/assets/img/Zac_P.webp"
+            alt="Passive zac"
+            class="hability_img"
+          />
+        </button>
+        <button onclick="Q_hide()" class="hability_button">
+          <img
+            src="/assets/img/Zac_Q.webp"
+            alt="Hability Q"
+            class="hability_img"
+          />
+        </button>
+        <button onclick="W_hide()" class="hability_button">
+          <img
+            src="/assets/img/Zac_W.webp"
+            alt="Hability W"
+            class="hability_img"
+          />
+        </button>
+        <button onclick="E_hide()" class="hability_button">
+          <img
+            src="/assets/img/Zac_E.webp"
+            alt="Hability E"
+            class="hability_img"
+          />
+        </button>
+        <button onclick="R_hide()" class="hability_button">
+          <img
+            src="/assets/img/Zac_R.webp"
+            alt="Hability R"
+            class="hability_img"
+          />
+        </button>
+      </div>
+      <div class="explication_container">
+        <div id="P_explication" class="text_containers">
+          <h6>Pasive</h6>
+          <h5>CELL DIVISION</h5>
+          <p>
+            Each time Zac hits an enemy with an ability, he sheds a chunk of
+            himself that can be reabsorbed to restore Health. Upon taking
+            fatal damage, Zac splits into 4 bloblets that attempt to
+            recombine. If any bloblets remain, he will revive with an amount
+            of Health depending on the Health of the surviving bloblets. Each
+            bloblet has a percentage of Zac's maximum Health, Armor and Magic
+            Resistance. This ability has a 5 minute cooldown.
+          </p>
+        </div>
+        <div id="Q_explication" class="text_containers">
+          <h6>Q</h6>
+          <h5>STRETCHING STRIKES</h5>
+          <p>
+            Zac stretches an arm, grabbing an enemy. Attacking a different
+            enemy will cause him to throw both targets towards each other.
+          </p>
+        </div>
+        <div id="W_explication" class="text_containers">
+          <h6>W</h6>
+          <h5>UNSTABLE MATTER</h5>
+          <p>
+            Zac explodes outward towards nearby enemies, dealing a percentage
+            of their maximum health as magic damage.
+          </p>
+        </div>
+        <div id="E_explication" class="text_containers">
+          <h6>E</h6>
+          <h5>ELASTIC SLINGSHOT</h5>
+          <p>
+            Zac attaches his arms to the ground and stretches back, launching
+            himself forward.
+          </p>
+        </div>
+        <div id="R_explication" class="text_containers">
+          <h6>R</h6>
+          <h5>LET'S BOUNCE!</h5>
+          <p>
+            Zac bounces four times, knocking up enemies hit and slowing them
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
     </section>
+    <script src="/scripts/zac.js"></script>
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 *{
     color:#fafafa;
     font-family: "Beaufort for LOL Bold", serif;
@@ -5,10 +6,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-color: #070720;
     font-size: 16px;
+    position: relative;
 }
 
 .champ-name{
@@ -19,15 +20,14 @@ body{
     position: 20%;
     max-width: 100%;
     z-index: -1;
-    position: absolute;
     mask-image: linear-gradient(rgb(0,0,0)65%,rgba(0,0,0,0)98%);
 
 
 }
 
 .info{
-    position:absolute;
     margin-top: 15svh;
+
 }
 .container-all{
     display: grid;
@@ -82,10 +82,101 @@ body{
         background-color: rgb(8, 215, 247);
         transform: skewX(-40deg);
 }
-.lin
 .champ-links{
     text-decoration: none;
     font-size: 1.5svh;
     margin: 1.2svh;
 
+}
+.hability_video{
+    max-width: 55%;
+    position: absolute;
+    left: 24%;
+    display: none;
+}
+
+.hability_button{
+    background: none;
+    border: none;
+    padding-top: 8rem;
+}
+.hability_img{
+    height: 3.3rem;
+
+}
+.button_container{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hability_img:hover{
+    border:5px solid red
+}
+.abilities-container{
+    position: relative;
+}
+.text_containers{
+    position: absolute;
+    display: none;
+}
+#Passive_video,#P_explication{
+    display: block;
+}
+@media (min-width:1023px) {
+    .div-divisor{
+        width: 1px;
+        height: 10rem;
+        margin-top: 2.5rem;
+        margin-right: auto;
+        margin-bottom: 2.5rem;
+        margin-left: auto;
+
+
+    }
+    .container-all{
+        display: grid;
+        grid-template-columns:40% 10% 40%;
+        column-gap: 0.5rem;
+        justify-content: space-around;
+
+    }
+    .role-and-difficult-container{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-left: 5rem;
+        gap: 8rem;
+    }
+    .lore-container{
+        display: flex;
+        align-items: center;
+    }
+    .champ-lore{
+        padding-left: 0;
+    }
+    .hability_video{
+        max-width: 55%;
+        position: relative;
+        margin: 3rem;
+    }
+    .button_container{
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    align-items: center;
+    column-gap: 1px;
+
+    }
+    .container-habilitys-buttons{
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 1fr 1fr;
+    }
+    .gif-container{
+        order: 2;
+    }
+    .button-text-container{
+        display: grid;
+        grid-template-rows:repeat(2,1fr);
+    }
 }
