@@ -1,0 +1,122 @@
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold);
+
+@font-face {
+    font-family: "Beaufort for LOL Bold";
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.side-menu-container {
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: column;
+}
+
+.side-menu-container-closed {
+    display: none;
+}
+
+.menu-btn-container {
+    background-color: red;
+}
+
+.menu-btn {
+    display: flex;
+    position: fixed;
+    top: 2svh;
+    left: 2svh;
+    width: 4svh;
+    height: 4svh;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.menu-btn:hover {
+    scale: 1.5;
+}
+
+.links-container {
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 8svh;
+    list-style-type: none;
+    font-size: 1.4rem;
+    font-family: "Beaufort for LOL Bold", serif;
+    align-items: center;
+    text-justify: auto;
+    text-transform: uppercase;
+    caret-color: transparent;
+}
+
+.menu-list-closed {
+    display: none;
+}
+
+.menu-list>li {
+    padding: 1svh;
+}
+
+.menu-list>li>a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+.champ-container {
+    width: 100%;
+    height: 100svh;
+    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.champ-data-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    align-self: flex-start;
+    margin: 0 auto;
+    color: #fafafa;
+    font-family: "Beaufort for LOL Bold", serif;
+}
+
+.champ-title-container {
+    display: inherit;
+    justify-content: flex-start;
+    caret-color: transparent;
+}
+
+.champ-title {
+    font-size: 2rem;
+}
+
+.champ-name-container {
+    display: inherit;
+    justify-content: flex-start;
+    caret-color: transparent;
+}
+
+.champ-name {
+    font-size: 12rem;
+}
