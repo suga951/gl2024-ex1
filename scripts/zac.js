@@ -61,7 +61,6 @@ function W_hide(){
     else{
         E_video.style.display="none"
         E_eplication.style.display="none"
-
     }
 }
 function E_hide(){
@@ -99,6 +98,5 @@ function R_hide(){
     else{
         P_video.style.display="none"
         P_eplication.style.display="none"
-
     }
 }
