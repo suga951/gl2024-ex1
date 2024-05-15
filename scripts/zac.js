@@ -99,4 +99,5 @@ function R_hide(){
         P_video.style.display="none"
         P_eplication.style.display="none"
     }
+
 }
