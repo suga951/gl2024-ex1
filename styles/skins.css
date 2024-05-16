@@ -1,0 +1,113 @@
+@import url(https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold);
+
+@font-face {
+    font-family: "Beaufort for LOL Bold";
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
+    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.menu-btn {
+    display: flex;
+    position: fixed;
+    top: 2svh;
+    left: 2svh;
+    width: 4svh;
+    height: 4svh;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.menu-btn:hover {
+    scale: 1.5;
+}
+
+.skins-container {
+    background-image: url("/assets/img/zac_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    flex-direction: row;
+}
+
+.skin-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 0svh;
+    padding: 0 5svh;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px) grayscale(10%);
+}
+
+.skin-list {
+    color: #fafafa;
+    font-size: 1.4rem;
+    font-family: "Beaufort for LOL Bold", serif;
+    list-style-type: none;
+    padding: 3svh;
+}
+
+.skin-name {
+    padding: 2svh;
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+.skin-name:hover {
+    scale: 1.2;
+
+}
+
+.skin-name:active {
+    cursor: none;
+}
+
+
+
+@media (width <=900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skins-container {
+        background-image: url("/assets/img/zac_1.jpg");
+        background-repeat: repeat-y;
+        background-size: 100% 50%;
+        background-position-y: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        align-self: center;
+    }
+
+    .skins-list-container {
+        display: inherit;
+        flex-direction: row;
+        background-color: red;
+        width: 100%;
+    }
+
+    .skin-list {
+        width: 100%;
+        padding: 0 7svh;
+    }
+}
+
+@media (900px <=width <=1200px) {
+    .skins-container {
+        background-position: 60%;
+    }
+}
