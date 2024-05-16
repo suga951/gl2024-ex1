@@ -83,7 +83,7 @@
 .champ-container {
     width: 100%;
     height: 100svh;
-    background-image: url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zac_0.jpg");
+    background-image: url("../assets/img/zac-splash-art.webp");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -123,20 +123,20 @@
 
 @media only screen and (max-width: 300px) {
     .champ-container {
-        background-image: url("/assets/img/zac-mobile-1.webp");
+        background-image: url("../assets/img/zac-mobile-1.webp");
         background-size: cover;
     }
 }
 
 @media (300px <=width <=600px) {
     .champ-container {
-        background-image: url("/assets/img/zac-mobile-1.webp");
+        background-image: url("../assets/img/zac-mobile-1.webp");
     }
 }
 
 @media (600px <=width <=900px) {
     .champ-container {
-        background-image: url("/assets/img/zac-mobile-1.webp");
+        background-image: url("../assets/img/zac-mobile-1.webp");
     }
 }
 
