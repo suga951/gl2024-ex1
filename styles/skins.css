@@ -32,7 +32,7 @@
 }
 
 .skins-container {
-    background-image: url("../assets/img/zac_1.jpg");
+    background-image: url("../assets/img/zac_1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -83,7 +83,6 @@
     }
 
     .skins-container {
-        background-image: url("../assets/img/zac_1.jpg");
         background-repeat: repeat-y;
         background-size: 100% 50%;
         background-position-y: initial;
