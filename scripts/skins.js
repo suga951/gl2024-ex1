@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sixthSkin = document.getElementById("skin-6");
 
   const changeSkin = (num) => {
-    let selectedSkin = `../assets/img/zac_${num}.jpg`;
+    let selectedSkin = `.../assets/img/zac_${num}.jpg`;
     skinContainer.style.backgroundImage = `url(${selectedSkin})`;
   };
 
