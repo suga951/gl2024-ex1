@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const changeSkin = (num) => {
     let selectedSkin = `../assets/img/zac_${num}.jpg`;
-    skinContainer.style.backgroundImage = `url(${selectedSkin})`;
+    skinContainer.style.backgroundImage = `url("${selectedSkin}")`;
 
   };
 
