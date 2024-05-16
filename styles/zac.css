@@ -6,6 +6,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+.menu-btn {
+    display: flex;
+    position: fixed;
+    top: 2svh;
+    left: 2svh;
+    width: 4svh;
+    height: 4svh;
+    cursor: pointer;
+    z-index: 10;
+}
+.menu-btn:hover {
+    scale: 1.5;
+}
 body{
     background-color: #070720;
     font-size: 16px;
@@ -38,7 +51,6 @@ h6{
     grid-template-rows: repeat(3);
     column-gap: 1rem;
     justify-content: space-between;
-    
 }
 .role-and-difficult-container{
     display: flex;
@@ -61,9 +73,7 @@ h6{
     padding: 0.2svh;
 }
 .camp-descripcion{
-    
     margin: 1em;
-    
 }
 .lore-container{
     padding: 1svh;
@@ -137,6 +147,7 @@ h6{
 #Passive_video,#P_explication{
     display: block;
 }
+
 @media (min-width:1023px) {
     .div-divisor{
         width: 1px;
@@ -214,4 +225,5 @@ h6{
     .explication_container{
         font-size: 1.2rem;
     }
+   
 }
