@@ -39,7 +39,6 @@
     height: 100svh;
     display: flex;
     flex-direction: row;
-    transition: background 2s ease;
 }
 
 .skin-list-container {
@@ -73,4 +72,42 @@
 
 .skin-name:active {
     cursor: none;
+}
+
+
+
+@media (width <=900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skins-container {
+        background-image: url("/assets/img/zac_1.jpg");
+        background-repeat: repeat-y;
+        background-size: 100% 50%;
+        background-position-y: initial;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        align-self: center;
+    }
+
+    .skins-list-container {
+        display: inherit;
+        flex-direction: row;
+        background-color: red;
+        width: 100%;
+    }
+
+    .skin-list {
+        width: 100%;
+        padding: 0 7svh;
+    }
+}
+
+@media (900px <=width <=1200px) {
+    .skins-container {
+        background-position: 60%;
+    }
 }

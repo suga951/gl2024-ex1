@@ -120,3 +120,28 @@
 .champ-name {
     font-size: 12rem;
 }
+
+@media only screen and (max-width: 300px) {
+    .champ-container {
+        background-image: url("/assets/img/zac-mobile-1.webp");
+        background-size: cover;
+    }
+}
+
+@media (300px <=width <=600px) {
+    .champ-container {
+        background-image: url("/assets/img/zac-mobile-1.webp");
+    }
+}
+
+@media (600px <=width <=900px) {
+    .champ-container {
+        background-image: url("/assets/img/zac-mobile-1.webp");
+    }
+}
+
+@media (900px <=width <=1300px) {
+    .champ-container {
+        background-position: 70%;
+    }
+}
