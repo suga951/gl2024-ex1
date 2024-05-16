@@ -7,7 +7,7 @@
 
 ## Demo
 
-You can visit the website [here](...).
+You can visit the website [here](https://suga951.github.io/gl2024-ex1/pages/main.html).
 
 ## General Info
 
